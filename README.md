@@ -11,7 +11,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ### Usage
 Clone the project
 ```
-https://github.com/enricvelasco/react-starter
+https://github.com/enricvelasco/react-starter.git
 ```
 ### Install
 ```
