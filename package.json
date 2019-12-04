@@ -1,15 +1,19 @@
 {
   "name": "react-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "ReactJs starter project",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enricvelasco/react-starter"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Enric Velasco",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.4",
