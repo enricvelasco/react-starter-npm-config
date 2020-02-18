@@ -1,6 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  devServer: {
+    port: 9000
+  },
   output: {
     filename: 'app.bundle.js'
   },
