@@ -1,12 +1,12 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = env => {
-  console.log('ENV:::', env.MODE)
-  const fileEntry = env.MODE === 'development' ? './src/components/npm-component/index.js' : './src/index.js'
+  console.log('ENV:::', env.MODE);
+  const fileEntry = env.MODE === 'development' ? './src/components/npm-component/index.js' : './src/index.js';
 
-  console.log('FILE_ENTRY', fileEntry)
-  return({
+  console.log('FILE_ENTRY', fileEntry);
+  return ({
     devServer: {
       port: 9000
     },
@@ -35,8 +35,8 @@ module.exports = env => {
         }
       ]
     }
-  })
-}
+  });
+};
 
 /*
 const HtmlWebpackPlugin = require('html-webpack-plugin')
